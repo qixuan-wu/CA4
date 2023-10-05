@@ -11,10 +11,15 @@ This is a simple chat application built using Node.js, Express, and Socket.io. U
 
 ## Setup
 
-1. Clone this repository to your local machine.
-2. Install the required dependencies using `npm install`.
-3. Start the server with `npm start`.
-4. Open your browser and go to `http://localhost:6000` to use the chat application.
+ ```
+nvm install 14
+npm install express
+``` 
+Then we need to go into the document
+ ```
+cd CA4
+node index.js
+``` 
 
 ## Usage
 
