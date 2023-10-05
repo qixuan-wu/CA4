@@ -39,4 +39,4 @@ node index.js
 
 ## Author
 
-Your Name
+Qixuan Wu
