@@ -1,0 +1,32 @@
+/* Styles for the body */
+body {
+    background-image: url('../img/1.jpg'); /* Replace 'your-image.jpg' with your image path */
+    background-repeat: repeat-x; /* Tile the image horizontally */
+    background-position: bottom; /* Position the image at the bottom */
+    font-family: Arial, sans-serif;
+}
+
+/* Other styles and content */
+/* You can add your other styles here, such as input fields, buttons, etc. */
+
+/* Navigation bar styles */
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}

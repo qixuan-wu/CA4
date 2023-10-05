@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Socket.io Simple Chat</title>
+    <link rel="stylesheet" href="/css/demo.css" />
+  </head>
+  <body>
+    <div class="centerit">
+      <div class="chat-container">
+        <aside>
+          <div class="top-bar">
+            <h1>Your ID is: <span id="userID"></span></h1>
+          </div>
+          <div class="conversations">
+            <div class="thread">
+              <div class="details">
+                <div class="inbox__people">
+                  <div></div>
+                  <h4>Active users</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </aside>
+
+        <div class="main">
+          <div class="maindiv">
+            <div class="top-bar"></div>
+            <!-- <div class="messages" id="messages"> -->
+            <!-- You can place main content here -->
+            <div class="messages__history"></div>
+            <div class="fallback"></div>
+            <div class="inbox__messages"></div>
+            <div id="typing-status"></div>
+          </div>
+          <div class="bottom-bar">
+            <form class="message_form">
+              <input
+                type="text"
+                class="msg-input message_form__input"
+                placeholder="Type a message"
+              />
+              <button class="message_form__button" type="submit">Enter</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/client.js"></script>
+  </body>
+</html>

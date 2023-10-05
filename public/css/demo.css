@@ -1,0 +1,108 @@
+/* Styles for the chat container */
+.chat-container {
+    display: flex;
+}
+
+/* Styles for the left chat room user list */
+aside {
+    flex: 0.5;
+    background-color: #c6acac;
+    color: white;
+    padding: 20px;
+    width: 150px; /* Reduce width to 150px, adjust as needed */
+    height: 90vh;
+}
+
+.user-info {
+    text-align: center;
+}
+
+.active-users {
+    margin-top: 20px;
+}
+
+/* Styles for the main chat area */
+.main {
+	background-color: #ffffff;
+	 height: 100vh;
+    flex: 2; /* Main chat area takes up 2 parts */
+    padding: 20px;
+}
+
+.chat-header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.chat-messages {
+    /* Style for chat messages */
+}
+
+.chat-input {
+    margin-top: 20px;
+}
+
+/* Styles for the message input form */
+.message_form {
+    display: flex;
+}
+
+.msg-input {
+    flex: 2;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+	border-radius: 20px;
+}
+
+.message_form__button {
+    flex: 1;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Styles for the chat box bottom bar */
+.bottom-bar {
+	border-radius: 20px;
+    background-color: white;
+    padding: 10px;
+	align-self: flex-end; /* Position at the bottom right */
+}
+
+.message_form__button{
+    background-color: #4CAF50; /* Green color */
+          border: none;
+           color: white;
+          padding: 20px;
+         text-align: center;
+          text-decoration: none;
+         display: inline-block;
+         font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+          border-radius: 12px;
+          height: 61px; 
+          width: 91px; 
+}
+.top-bar{
+    text-align: center;  
+    padding: 10px 0;
+}
+
+.messages__history {
+	padding: 10px;
+	border: 2px solid #333;
+	border-radius: 20px;
+    height: 75vh; /* Set maximum height for message history */
+    overflow-y: auto; /* Enable vertical scrollbar for overflow content */
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Socket.io Chat App</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .chat-container {
+            border: 1px solid #ccc;
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            max-width: 800px;
+        }
+
+        .top-bar {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .conversations {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .report {
+            padding: 20px;
+        }
+
+        /* Add more styles as needed */
+
+        .section-box {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+        }
+		.back-button {
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Socket.io Chat App</h1>
+        <p>A real-time chat application</p>
+    </div>
+
+    <div class="report">
+        <div class="section-box">
+            <h2>Project Report</h2>
+            <p><strong>Introduction:</strong></p>
+            <p>
+                The Socket.io Chat App is a web-based chat application that allows users to communicate in real-time.
+                This project utilizes Node.js, Express.js, and Socket.io to create a seamless chatting experience.
+                The application provides features such as user authentication, real-time chat, an active user list,
+                and typing status notifications.
+            </p>
+        </div>
+
+        <div class="section-box">
+            <h2>Project Objectives</h2>
+            <ul>
+                <li>Real-time Chat: Implement a real-time chat feature that allows users to exchange messages instantly.</li>
+                <li>User Authentication: Assign unique user IDs to each participant for user authentication.</li>
+                <li>Active User List: Display a list of active users in the chat room.</li>
+                <li>Typing Notifications: Notify users when someone is typing a message.</li>
+            </ul>
+        </div>
+
+        <div class="section-box">
+            <h2>Technologies Used</h2>
+            <ul>
+                <li><strong>Node.js:</strong> Used as the server-side runtime environment.</li>
+                <li><strong>Express.js:</strong> Created a web server to serve static files and handle routes.</li>
+                <li><strong>Socket.io:</strong> Enabled real-time communication between the server and clients.</li>
+                <li><strong>HTML/CSS:</strong> Designed the user interface and layout.</li>
+                <li><strong>JavaScript:</strong> Wrote client-side and server-side code.</li>
+            </ul>
+        </div>
+
+    </div>
+	<div class="back-button">
+            <a href="index.html">Back to Home</a>
+        </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home page</title>
+    <link rel="stylesheet" type="text/css" href="css/log.css">
+</head>
+<body style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; margin: 0;">
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+        </ul>
+    </nav>
+
+    <!-- Add Welcome Text -->
+    <p style="text-align: center;">Chat makes the world a better place. Welcome to the chat app!</p>
+
+    <!-- Centered Input Field and Button -->
+    <input type="text" id="inputField" style="width: 300px; padding: 10px; margin-bottom: 10px;">
+    <button onclick="setUserID()" style="padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer;">Enter</button>
+
+    <script>
+        function setUserID() {
+            const inputValue = document.getElementById("inputField").value;
+            localStorage.setItem("userID", inputValue); // Store the input value in local storage
+            window.location.href = "chat.html"; // Redirect to the page displaying the ID
+        }
+    </script>
+</body>
+</html>
